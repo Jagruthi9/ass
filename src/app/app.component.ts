@@ -7,4 +7,26 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ass';
+  private firstNumber:number;
+  private secondNumber:number;
+  private result:number;
+  public add():void
+  {
+  this.result= this.firstNumber+this.secondNumber;
+  }
+  public sub():void
+  {
+  
+  this.result= this.firstNumber-this.secondNumber;
+  }
+  public mul():void
+  {
+  
+  this.result= this.firstNumber*this.secondNumber;
+  }
+  public div():void
+  {
+  
+  this.result= this.firstNumber/this.secondNumber;
+  }
 }
